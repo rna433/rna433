@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Hi, I'm Rana. Designer, artist, maker.">
+<title>Hi, I'm Rana — Designer • Artist • Maker</title>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="55%" r="75%">
+    <stop offset="0" stop-color="#2a0b26"/><stop offset=".6" stop-color="#14050f"/><stop offset="1" stop-color="#080206"/>
+  </radialGradient>
+  <radialGradient id="warm" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#ff8a3c" stop-opacity=".55"/><stop offset="1" stop-color="#ff8a3c" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="pinkGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#ff3fa4" stop-opacity=".28"/><stop offset="1" stop-color="#ff3fa4" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orb" cx="35%" cy="30%" r="75%">
+    <stop offset="0" stop-color="#ff9ad0"/><stop offset=".45" stop-color="#f0379b"/><stop offset="1" stop-color="#8e0b52"/>
+  </radialGradient>
+  <radialGradient id="orbHalo" cx="50%" cy="50%" r="50%">
+    <stop offset=".55" stop-color="#ff4fae" stop-opacity=".35"/><stop offset="1" stop-color="#ff4fae" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="pumpkin" cx="40%" cy="35%" r="75%">
+    <stop offset="0" stop-color="#ff7fc4"/><stop offset=".5" stop-color="#e8248a"/><stop offset="1" stop-color="#7a0844"/>
+  </radialGradient>
+  <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffd27a"/><stop offset=".55" stop-color="#ff9a3c"/><stop offset="1" stop-color="#d4581f"/>
+  </linearGradient>
+  <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#bff7ee"/><stop offset="1" stop-color="#3fbfb0"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffe3a3"/><stop offset=".5" stop-color="#c99437"/><stop offset="1" stop-color="#7a5418"/>
+  </linearGradient>
+  <linearGradient id="titleFill" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffd6ea"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#ffd6ea"/>
+  </linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="titleGlow" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur stdDeviation="10" result="b"/>
+    <feColorMatrix in="b" type="matrix" values="0 0 0 0 1  0 0 0 0 .25  0 0 0 0 .65  0 0 0 .9 0"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style>
+  .float, .drift, .swing, .look, .twinkle, .flicker, .pulse { transform-box: fill-box; transform-origin: center; animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
+  .float { animation-name: float; }
+  .drift { animation-name: drift; }
+  .swing { transform-origin: top center; animation-name: swing; }
+  .look { animation-name: look; }
+  .twinkle { animation-name: twinkle; }
+  .flicker { animation-name: flicker; }
+  .pulse { animation-name: pulse; }
+  @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-12px) } }
+  @keyframes drift { 0%,100% { transform: translate(0,0) rotate(0deg) } 33% { transform: translate(4px,-8px) rotate(10deg) } 66% { transform: translate(-3px,-4px) rotate(-8deg) } }
+  @keyframes swing { 0%,100% { transform: rotate(5deg) } 50% { transform: rotate(-5deg) } }
+  @keyframes look { 0%,40%,100% { transform: translateX(0) } 50%,85% { transform: translateX(3px) } }
+  @keyframes twinkle { 0%,100% { opacity: .15 } 50% { opacity: 1 } }
+  @keyframes flicker { 0%,100% { opacity: 1 } 45% { opacity: .75 } 55% { opacity: .95 } 70% { opacity: .7 } }
+  @keyframes pulse { 0%,100% { opacity: .75 } 50% { opacity: 1 } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect width="1200" height="320" fill="url(#bg)"/>
+<ellipse cx="250" cy="300" rx="260" ry="150" fill="url(#warm)" class="pulse" style="animation-duration:4s;animation-delay:-0s"/>
+<ellipse cx="960" cy="260" rx="280" ry="160" fill="url(#pinkGlow)"/>
+<ellipse cx="600" cy="170" rx="330" ry="110" fill="url(#pinkGlow)" opacity=".7"/>
+
+<!-- left cluster -->
+<g transform="translate(138 -6)"><g class="swing" style="animation-duration:6s;animation-delay:-1s"><ellipse cx="0" cy="0" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="7" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="26" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="33" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="52" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="59" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="78" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="85" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="104" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="111" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="130" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="137" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="156" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="163" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/>
+    <circle cy="192" r="11" fill="none" stroke="url(#gold)" stroke-width="4"/>
+  </g></g>
+<g filter="url(#glow)"><circle cx="148.5" cy="256.7" r="1.01" fill="#ffd27a" class="twinkle" style="animation-duration:2.19s;animation-delay:-1.77s"/><circle cx="151.0" cy="203.6" r="2.38" fill="#ffd27a" class="twinkle" style="animation-duration:3.01s;animation-delay:-1.64s"/><circle cx="116.8" cy="280.9" r="1.98" fill="#ffd27a" class="twinkle" style="animation-duration:1.78s;animation-delay:-1.99s"/><circle cx="109.2" cy="268.9" r="1.08" fill="#ffd27a" class="twinkle" style="animation-duration:2.94s;animation-delay:-1.95s"/><circle cx="100.1" cy="200.5" r="2.49" fill="#ffd27a" class="twinkle" style="animation-duration:3.93s;animation-delay:-0.48s"/><circle cx="141.4" cy="300.1" r="1.14" fill="#ffd27a" class="twinkle" style="animation-duration:2.61s;animation-delay:-2.20s"/><circle cx="176.5" cy="225.9" r="1.11" fill="#ffd27a" class="twinkle" style="animation-duration:3.97s;animation-delay:-1.78s"/><circle cx="108.8" cy="255.2" r="1.39" fill="#ffd27a" class="twinkle" style="animation-duration:1.97s;animation-delay:-3.09s"/><circle cx="127.2" cy="233.5" r="0.94" fill="#ffd27a" class="twinkle" style="animation-duration:3.82s;animation-delay:-0.95s"/><circle cx="209.2" cy="246.8" r="1.22" fill="#ffd27a" class="twinkle" style="animation-duration:3.05s;animation-delay:-1.61s"/><circle cx="189.9" cy="266.8" r="1.04" fill="#ffd27a" class="twinkle" style="animation-duration:2.14s;animation-delay:-1.80s"/><circle cx="86.9" cy="200.2" r="1.54" fill="#ffd27a" class="twinkle" style="animation-duration:3.23s;animation-delay:-2.59s"/><circle cx="220.1" cy="230.7" r="1.59" fill="#ffd27a" class="twinkle" style="animation-duration:2.79s;animation-delay:-1.76s"/><circle cx="202.1" cy="244.6" r="1.59" fill="#ffd27a" class="twinkle" style="animation-duration:2.23s;animation-delay:-0.95s"/><circle cx="187.4" cy="209.5" r="1.29" fill="#ffd27a" class="twinkle" style="animation-duration:3.44s;animation-delay:-3.43s"/><circle cx="222.1" cy="297.0" r="2.35" fill="#ffd27a" class="twinkle" style="animation-duration:3.39s;animation-delay:-2.56s"/><circle cx="158.4" cy="197.7" r="1.38" fill="#ffd27a" class="twinkle" style="animation-duration:2.46s;animation-delay:-0.86s"/><circle cx="133.6" cy="270.4" r="2.13" fill="#ffd27a" class="twinkle" style="animation-duration:2.24s;animation-delay:-3.83s"/><circle cx="74.1" cy="234.6" r="1.85" fill="#ffd27a" class="twinkle" style="animation-duration:2.66s;animation-delay:-0.36s"/><circle cx="225.5" cy="245.2" r="2.37" fill="#ffd27a" class="twinkle" style="animation-duration:3.01s;animation-delay:-1.88s"/><circle cx="92.3" cy="282.3" r="2.41" fill="#ffd27a" class="twinkle" style="animation-duration:2.23s;animation-delay:-0.10s"/><circle cx="96.8" cy="272.8" r="2.06" fill="#ffd27a" class="twinkle" style="animation-duration:3.18s;animation-delay:-3.48s"/><circle cx="108.4" cy="286.4" r="1.10" fill="#ffd27a" class="twinkle" style="animation-duration:1.69s;animation-delay:-0.33s"/><circle cx="76.2" cy="254.1" r="2.30" fill="#ffd27a" class="twinkle" style="animation-duration:3.62s;animation-delay:-0.58s"/><circle cx="149.1" cy="200.7" r="1.30" fill="#ffd27a" class="twinkle" style="animation-duration:2.77s;animation-delay:-0.26s"/><circle cx="127.8" cy="220.3" r="1.33" fill="#ffd27a" class="twinkle" style="animation-duration:3.50s;animation-delay:-0.55s"/><circle cx="98.3" cy="195.1" r="1.92" fill="#ffd27a" class="twinkle" style="animation-duration:1.81s;animation-delay:-1.61s"/><circle cx="89.8" cy="247.6" r="1.55" fill="#ffd27a" class="twinkle" style="animation-duration:1.62s;animation-delay:-3.03s"/><circle cx="142.5" cy="276.3" r="1.41" fill="#ffd27a" class="twinkle" style="animation-duration:3.83s;animation-delay:-2.87s"/><circle cx="171.4" cy="224.5" r="1.45" fill="#ffd27a" class="twinkle" style="animation-duration:1.79s;animation-delay:-3.52s"/><circle cx="85.8" cy="202.5" r="1.14" fill="#ffd27a" class="twinkle" style="animation-duration:2.33s;animation-delay:-0.12s"/><circle cx="165.5" cy="243.3" r="1.48" fill="#ffd27a" class="twinkle" style="animation-duration:2.90s;animation-delay:-3.62s"/><circle cx="154.3" cy="241.4" r="1.02" fill="#ffd27a" class="twinkle" style="animation-duration:3.76s;animation-delay:-2.65s"/><circle cx="149.8" cy="294.7" r="2.02" fill="#ffd27a" class="twinkle" style="animation-duration:2.70s;animation-delay:-3.87s"/></g>
+<g transform="translate(250 92)"><g class="float" style="animation-duration:7s;animation-delay:-0s">
+    <circle r="78" fill="url(#orbHalo)"/>
+    <circle r="52" fill="url(#orb)"/>
+    <g class="look" style="animation-duration:9.1s;animation-delay:-0s">
+      <circle cx="-18.72" cy="-4.16" r="10.4" fill="#1a0612"/>
+      <circle cx="18.72" cy="-4.16" r="10.4" fill="#1a0612"/>
+      <circle cx="-22.36" cy="-7.8" r="2.9120000000000004" fill="#fff" opacity=".7"/>
+      <circle cx="15.079999999999998" cy="-7.8" r="2.9120000000000004" fill="#fff" opacity=".7"/>
+    </g>
+    <ellipse cx="-20.8" cy="-28.6" rx="16.64" ry="8.32" fill="#fff" opacity=".45" transform="rotate(-30 -20.8 -28.6)"/>
+  </g></g>
+<g transform="translate(80 120) rotate(-25) scale(1.25)"><g class="drift" style="animation-duration:9s;animation-delay:-2s">
+    <path d="M0 -26 C 18 -18 20 8 0 26 C -20 8 -18 -18 0 -26z" fill="url(#leaf)" stroke="#62e6d6" stroke-width="2.2" filter="url(#softGlow)"/>
+    <path d="M0 -20 L0 22" stroke="#b5501c" stroke-width="1.4" opacity=".6"/>
+  </g></g>
+<g transform="translate(330 210) rotate(40) scale(0.9)"><g class="drift" style="animation-duration:8s;animation-delay:-5s">
+    <path d="M0 -26 C 18 -18 20 8 0 26 C -20 8 -18 -18 0 -26z" fill="url(#leaf)" stroke="#62e6d6" stroke-width="2.2" filter="url(#softGlow)"/>
+    <path d="M0 -20 L0 22" stroke="#b5501c" stroke-width="1.4" opacity=".6"/>
+  </g></g>
+<g transform="translate(355 70) rotate(30) scale(1.1)"><g class="drift" style="animation-duration:6s;animation-delay:-1s">
+    <path d="M0 -14 C 8 -2 9 6 0 12 C -9 6 -8 -2 0 -14z" fill="url(#drop)"/>
+  </g></g>
+<g transform="translate(40 230) rotate(-20) scale(0.9)"><g class="drift" style="animation-duration:7s;animation-delay:-3s">
+    <path d="M0 -14 C 8 -2 9 6 0 12 C -9 6 -8 -2 0 -14z" fill="#a99aa6"/>
+  </g></g>
+<g transform="translate(220 268)"><g class="float" style="animation-duration:6.5s;animation-delay:-2s">
+    <circle r="48" fill="url(#orbHalo)"/>
+    <ellipse rx="30" ry="25.5" fill="url(#pumpkin)"/>
+    <path d="M-10.5 -25.5 Q 0 -30 10.5 -25.5" stroke="#7a0c45" stroke-width="2" fill="none" opacity=".5"/>
+    <g fill="#ffd36b" filter="url(#glow)" class="flicker" style="animation-duration:2.4s;animation-delay:-2s">
+      <path d="M-15 -4.5 l5.3999999999999995 -8.4 l5.3999999999999995 8.4z"/>
+      <path d="M4.2 -4.5 l5.3999999999999995 -8.4 l5.3999999999999995 8.4z"/>
+      <path d="M-16.5 6 Q 0 19.5 16.5 6 l-5.3999999999999995 3 l-3.5999999999999996 -3 l-3.5999999999999996 3.5999999999999996 l-3.9000000000000004 -3.5999999999999996 l-3.5999999999999996 3z"/>
+    </g>
+  </g></g>
+<g transform="translate(60 300)"><g class="float" style="animation-duration:5s;animation-delay:-3s">
+    <circle r="27" fill="url(#orbHalo)"/>
+    <circle r="18" fill="url(#orb)"/>
+    <g class="look" style="animation-duration:6.5s;animation-delay:-3s">
+      <circle cx="-6.4799999999999995" cy="-1.44" r="3.6" fill="#1a0612"/>
+      <circle cx="6.4799999999999995" cy="-1.44" r="3.6" fill="#1a0612"/>
+      <circle cx="-7.739999999999999" cy="-2.7" r="1.0080000000000002" fill="#fff" opacity=".7"/>
+      <circle cx="5.22" cy="-2.7" r="1.0080000000000002" fill="#fff" opacity=".7"/>
+    </g>
+    <ellipse cx="-7.2" cy="-9.9" rx="5.76" ry="2.88" fill="#fff" opacity=".45" transform="rotate(-30 -7.2 -9.9)"/>
+  </g></g>
+
+<!-- right cluster -->
+<g transform="translate(890 -6)"><g class="swing" style="animation-duration:5s;animation-delay:-2.5s"><ellipse cx="0" cy="0" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="7" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="26" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="33" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="52" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="59" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/><ellipse cx="0" cy="78" rx="5" ry="8" fill="none" stroke="url(#gold)" stroke-width="2.4"/><rect x="-2" y="85" width="4" height="14" rx="2" fill="none" stroke="url(#gold)" stroke-width="2.4"/>
+    <circle cy="114" r="11" fill="none" stroke="url(#gold)" stroke-width="4"/>
+  </g></g>
+<g filter="url(#glow)"><circle cx="1101.1" cy="94.7" r="1.17" fill="#ffd27a" class="twinkle" style="animation-duration:2.57s;animation-delay:-0.61s"/><circle cx="1030.2" cy="113.1" r="1.83" fill="#ffd27a" class="twinkle" style="animation-duration:3.68s;animation-delay:-3.92s"/><circle cx="1074.8" cy="38.2" r="1.57" fill="#ffd27a" class="twinkle" style="animation-duration:3.35s;animation-delay:-1.18s"/><circle cx="1117.4" cy="56.9" r="2.08" fill="#ffd27a" class="twinkle" style="animation-duration:3.37s;animation-delay:-1.75s"/><circle cx="1164.5" cy="71.9" r="1.77" fill="#ffd27a" class="twinkle" style="animation-duration:1.71s;animation-delay:-0.16s"/><circle cx="1030.1" cy="114.7" r="2.56" fill="#ffd27a" class="twinkle" style="animation-duration:2.35s;animation-delay:-1.91s"/><circle cx="1137.9" cy="118.9" r="1.74" fill="#ffd27a" class="twinkle" style="animation-duration:2.84s;animation-delay:-3.88s"/><circle cx="1083.8" cy="133.8" r="1.11" fill="#ffd27a" class="twinkle" style="animation-duration:2.46s;animation-delay:-1.51s"/><circle cx="1167.0" cy="137.6" r="1.20" fill="#ffd27a" class="twinkle" style="animation-duration:2.55s;animation-delay:-2.51s"/><circle cx="1176.6" cy="50.6" r="2.09" fill="#ffd27a" class="twinkle" style="animation-duration:3.57s;animation-delay:-3.34s"/><circle cx="1138.0" cy="68.7" r="1.79" fill="#ffd27a" class="twinkle" style="animation-duration:3.74s;animation-delay:-0.30s"/><circle cx="1163.5" cy="116.8" r="1.23" fill="#ffd27a" class="twinkle" style="animation-duration:1.74s;animation-delay:-3.33s"/><circle cx="1079.7" cy="102.0" r="1.49" fill="#ffd27a" class="twinkle" style="animation-duration:3.35s;animation-delay:-0.45s"/><circle cx="1173.1" cy="126.7" r="2.17" fill="#ffd27a" class="twinkle" style="animation-duration:3.35s;animation-delay:-0.85s"/><circle cx="1033.7" cy="62.5" r="1.01" fill="#ffd27a" class="twinkle" style="animation-duration:2.52s;animation-delay:-0.69s"/><circle cx="1029.0" cy="43.1" r="1.88" fill="#ffd27a" class="twinkle" style="animation-duration:2.40s;animation-delay:-3.55s"/><circle cx="1035.2" cy="77.7" r="2.39" fill="#ffd27a" class="twinkle" style="animation-duration:3.88s;animation-delay:-3.50s"/><circle cx="1127.4" cy="104.5" r="2.48" fill="#ffd27a" class="twinkle" style="animation-duration:2.70s;animation-delay:-2.94s"/></g>
+<g transform="translate(1000 120)"><g class="float" style="animation-duration:6s;animation-delay:-2s">
+    <circle r="60" fill="url(#orbHalo)"/>
+    <circle r="40" fill="url(#orb)"/>
+    <g class="look" style="animation-duration:7.800000000000001s;animation-delay:-2s">
+      <circle cx="-14.399999999999999" cy="-3.2" r="8" fill="#1a0612"/>
+      <circle cx="14.399999999999999" cy="-3.2" r="8" fill="#1a0612"/>
+      <circle cx="-17.2" cy="-6" r="2.24" fill="#fff" opacity=".7"/>
+      <circle cx="11.599999999999998" cy="-6" r="2.24" fill="#fff" opacity=".7"/>
+    </g>
+    <ellipse cx="-16" cy="-22" rx="12.8" ry="6.4" fill="#fff" opacity=".45" transform="rotate(-30 -16 -22)"/>
+  </g></g>
+<g transform="translate(1150 230)"><g class="float" style="animation-duration:5.5s;animation-delay:-4s">
+    <circle r="39" fill="url(#orbHalo)"/>
+    <circle r="26" fill="url(#orb)"/>
+    <g class="look" style="animation-duration:7.15s;animation-delay:-4s">
+      <circle cx="-9.36" cy="-2.08" r="5.2" fill="#1a0612"/>
+      <circle cx="9.36" cy="-2.08" r="5.2" fill="#1a0612"/>
+      <circle cx="-11.18" cy="-3.9" r="1.4560000000000002" fill="#fff" opacity=".7"/>
+      <circle cx="7.539999999999999" cy="-3.9" r="1.4560000000000002" fill="#fff" opacity=".7"/>
+    </g>
+    <ellipse cx="-10.4" cy="-14.3" rx="8.32" ry="4.16" fill="#fff" opacity=".45" transform="rotate(-30 -10.4 -14.3)"/>
+  </g></g>
+<g transform="translate(905 255)"><g class="float" style="animation-duration:7s;animation-delay:-1s">
+    <circle r="54.400000000000006" fill="url(#orbHalo)"/>
+    <ellipse rx="34" ry="28.9" fill="url(#pumpkin)"/>
+    <path d="M-11.899999999999999 -28.9 Q 0 -34 11.899999999999999 -28.9" stroke="#7a0c45" stroke-width="2" fill="none" opacity=".5"/>
+    <g fill="#ffd36b" filter="url(#glow)" class="flicker" style="animation-duration:2.4s;animation-delay:-1s">
+      <path d="M-17 -5.1 l6.12 -9.520000000000001 l6.12 9.520000000000001z"/>
+      <path d="M4.760000000000001 -5.1 l6.12 -9.520000000000001 l6.12 9.520000000000001z"/>
+      <path d="M-18.700000000000003 6.800000000000001 Q 0 22.1 18.700000000000003 6.800000000000001 l-6.12 3.4000000000000004 l-4.08 -3.4000000000000004 l-4.08 4.08 l-4.42 -4.08 l-4.08 3.4000000000000004z"/>
+    </g>
+  </g></g>
+<g transform="translate(1100 60) rotate(35) scale(1.05)"><g class="drift" style="animation-duration:8.5s;animation-delay:-3s">
+    <path d="M0 -26 C 18 -18 20 8 0 26 C -20 8 -18 -18 0 -26z" fill="url(#leaf)" stroke="#62e6d6" stroke-width="2.2" filter="url(#softGlow)"/>
+    <path d="M0 -20 L0 22" stroke="#b5501c" stroke-width="1.4" opacity=".6"/>
+  </g></g>
+<g transform="translate(860 165) rotate(-40) scale(0.85)"><g class="drift" style="animation-duration:9.5s;animation-delay:-6s">
+    <path d="M0 -26 C 18 -18 20 8 0 26 C -20 8 -18 -18 0 -26z" fill="url(#leaf)" stroke="#62e6d6" stroke-width="2.2" filter="url(#softGlow)"/>
+    <path d="M0 -20 L0 22" stroke="#b5501c" stroke-width="1.4" opacity=".6"/>
+  </g></g>
+<g transform="translate(1070 290) rotate(70) scale(0.7)"><g class="drift" style="animation-duration:7.5s;animation-delay:-1s">
+    <path d="M0 -26 C 18 -18 20 8 0 26 C -20 8 -18 -18 0 -26z" fill="url(#leaf)" stroke="#62e6d6" stroke-width="2.2" filter="url(#softGlow)"/>
+    <path d="M0 -20 L0 22" stroke="#b5501c" stroke-width="1.4" opacity=".6"/>
+  </g></g>
+<g transform="translate(1175 140) rotate(-25) scale(1)"><g class="drift" style="animation-duration:6.5s;animation-delay:-2s">
+    <path d="M0 -14 C 8 -2 9 6 0 12 C -9 6 -8 -2 0 -14z" fill="url(#drop)"/>
+  </g></g>
+<g transform="translate(830 60) rotate(15) scale(0.85)"><g class="drift" style="animation-duration:7s;animation-delay:-4s">
+    <path d="M0 -14 C 8 -2 9 6 0 12 C -9 6 -8 -2 0 -14z" fill="#a99aa6"/>
+  </g></g>
+
+<!-- title -->
+<g filter="url(#titleGlow)"><path d="M413.13 168L402.06 168L402.06 115.64L413.13 115.64L413.13 137.24L435.61 137.24L435.61 115.64L446.65 115.64L446.65 168L435.61 168L435.61 146.37L413.13 146.37L413.13 168ZM466.47 168L455.58 168L455.58 128.73L466.47 128.73L466.47 168ZM461.05 123.66L461.05 123.66Q458.62 123.66 456.89 122.04Q455.17 120.42 455.17 118.14L455.17 118.14Q455.17 115.89 456.89 114.27Q458.62 112.64 461.05 112.64L461.05 112.64Q463.48 112.64 465.20 114.27Q466.93 115.89 466.93 118.14L466.93 118.14Q466.93 120.42 465.20 122.04Q463.48 123.66 461.05 123.66ZM478.00 160.84L487.00 160.84L486.72 163.65Q486.39 167.03 485.45 170.39Q484.52 173.75 483.51 176.49Q482.50 179.22 481.89 180.78L481.89 180.78L474.83 180.78Q475.21 179.28 475.88 176.58Q476.54 173.88 477.13 170.53Q477.72 167.18 477.87 163.70L477.87 163.70L478.00 160.84ZM513.87 115.64L524.94 115.64L524.94 168L513.87 168L513.87 115.64ZM533.10 115.64L540.87 115.64L540.87 135.53L533.10 135.53L533.10 115.64ZM559.79 168L548.90 168L548.90 128.73L559.28 128.73L559.28 135.66L559.74 135.66Q560.97 132.20 563.83 130.21Q566.70 128.22 570.69 128.22L570.69 128.22Q574.73 128.22 577.56 130.22Q580.40 132.23 581.35 135.66L581.35 135.66L581.76 135.66Q582.96 132.28 586.12 130.25Q589.27 128.22 593.60 128.22L593.60 128.22Q599.09 128.22 602.53 131.71Q605.97 135.20 605.97 141.59L605.97 141.59L605.97 168L595.10 168L595.10 143.74Q595.10 140.46 593.37 138.83Q591.63 137.19 589.02 137.19L589.02 137.19Q586.05 137.19 584.39 139.07Q582.73 140.95 582.73 144.02L582.73 144.02L582.73 168L572.17 168L572.17 143.51Q572.17 140.62 570.52 138.90Q568.87 137.19 566.19 137.19L566.19 137.19Q564.37 137.19 562.93 138.10Q561.48 139.01 560.64 140.63Q559.79 142.25 559.79 144.43L559.79 144.43L559.79 168ZM642.53 168L631.46 168L631.46 115.64L652.12 115.64Q658.05 115.64 662.26 117.75Q666.46 119.86 668.68 123.70Q670.89 127.55 670.89 132.74L670.89 132.74Q670.89 137.96 668.64 141.70Q666.39 145.45 662.14 147.44L662.14 147.44Q661.89 147.55 661.66 147.67L661.66 147.67L672.75 168L660.53 168L650.61 149.44L642.53 149.44L642.53 168ZM642.53 124.69L642.53 140.54L650.05 140.54Q653.22 140.54 655.32 139.67Q657.41 138.80 658.45 137.06Q659.48 135.32 659.48 132.74L659.48 132.74Q659.48 130.13 658.45 128.34Q657.41 126.55 655.30 125.62Q653.19 124.69 650.00 124.69L650.00 124.69L642.53 124.69ZM689.71 168.74L689.71 168.74Q685.95 168.74 683.01 167.42Q680.07 166.11 678.37 163.51Q676.67 160.92 676.67 157.03L676.67 157.03Q676.67 153.76 677.87 151.53Q679.07 149.31 681.14 147.95Q683.21 146.60 685.86 145.91Q688.50 145.22 691.42 144.94L691.42 144.94Q694.85 144.58 696.94 144.26Q699.04 143.94 699.98 143.30Q700.93 142.66 700.93 141.41L700.93 141.41L700.93 141.26Q700.93 138.83 699.41 137.50Q697.89 136.17 695.10 136.17L695.10 136.17Q692.16 136.17 690.42 137.46Q688.68 138.75 688.12 140.69L688.12 140.69L678.05 139.88Q678.81 136.30 681.06 133.67Q683.31 131.05 686.88 129.63Q690.45 128.22 695.15 128.22L695.15 128.22Q698.42 128.22 701.43 128.98Q704.43 129.75 706.77 131.36Q709.11 132.97 710.47 135.49Q711.82 138.01 711.82 141.51L711.82 141.51L711.82 168L701.49 168L701.49 162.55L701.19 162.55Q700.24 164.39 698.65 165.79Q697.07 167.18 694.85 167.96Q692.62 168.74 689.71 168.74ZM692.83 161.22L692.83 161.22Q695.23 161.22 697.07 160.27Q698.91 159.31 699.96 157.67Q701.01 156.03 701.01 153.96L701.01 153.96L701.01 149.80Q700.50 150.13 699.61 150.40Q698.73 150.66 697.63 150.88Q696.53 151.10 695.43 151.27Q694.33 151.43 693.44 151.56L693.44 151.56Q691.52 151.84 690.09 152.45Q688.66 153.07 687.87 154.10Q687.07 155.14 687.07 156.67L687.07 156.67Q687.07 158.90 688.70 160.06Q690.32 161.22 692.83 161.22ZM731.18 145.30L731.18 145.30L731.18 168L720.29 168L720.29 128.73L730.67 128.73L730.67 135.66L731.13 135.66Q732.43 132.23 735.50 130.22Q738.57 128.22 742.94 128.22L742.94 128.22Q747.03 128.22 750.07 130.01Q753.12 131.80 754.80 135.11Q756.49 138.42 756.49 142.99L756.49 142.99L756.49 168L745.60 168L745.60 144.94Q745.62 141.33 743.76 139.30Q741.89 137.27 738.62 137.27L738.62 137.27Q736.42 137.27 734.74 138.21Q733.07 139.16 732.14 140.96Q731.20 142.76 731.18 145.30ZM776.25 168.74L776.25 168.74Q772.50 168.74 769.56 167.42Q766.62 166.11 764.91 163.51Q763.21 160.92 763.21 157.03L763.21 157.03Q763.21 153.76 764.42 151.53Q765.62 149.31 767.69 147.95Q769.76 146.60 772.41 145.91Q775.05 145.22 777.97 144.94L777.97 144.94Q781.39 144.58 783.49 144.26Q785.59 143.94 786.53 143.30Q787.48 142.66 787.48 141.41L787.48 141.41L787.48 141.26Q787.48 138.83 785.96 137.50Q784.44 136.17 781.65 136.17L781.65 136.17Q778.71 136.17 776.97 137.46Q775.23 138.75 774.67 140.69L774.67 140.69L764.60 139.88Q765.36 136.30 767.61 133.67Q769.86 131.05 773.43 129.63Q777.00 128.22 781.70 128.22L781.70 128.22Q784.97 128.22 787.98 128.98Q790.98 129.75 793.32 131.36Q795.66 132.97 797.02 135.49Q798.37 138.01 798.37 141.51L798.37 141.51L798.37 168L788.04 168L788.04 162.55L787.73 162.55Q786.79 164.39 785.20 165.79Q783.62 167.18 781.39 167.96Q779.17 168.74 776.25 168.74ZM779.37 161.22L779.37 161.22Q781.78 161.22 783.62 160.27Q785.46 159.31 786.51 157.67Q787.56 156.03 787.56 153.96L787.56 153.96L787.56 149.80Q787.04 150.13 786.16 150.40Q785.28 150.66 784.18 150.88Q783.08 151.10 781.98 151.27Q780.88 151.43 779.99 151.56L779.99 151.56Q778.07 151.84 776.64 152.45Q775.21 153.07 774.41 154.10Q773.62 155.14 773.62 156.67L773.62 156.67Q773.62 158.90 775.24 160.06Q776.87 161.22 779.37 161.22Z" fill="url(#titleFill)"/></g>
+<path d="M431.54 212L431.54 212L427.54 212L427.54 199.64L431.67 199.64Q433.49 199.64 434.79 200.38Q436.10 201.12 436.79 202.49Q437.49 203.87 437.49 205.80L437.49 205.80Q437.49 207.73 436.79 209.12Q436.08 210.51 434.76 211.25Q433.43 212 431.54 212ZM429.41 201.27L429.41 210.37L431.44 210.37Q432.85 210.37 433.79 209.84Q434.73 209.30 435.19 208.28Q435.66 207.27 435.66 205.80L435.66 205.80Q435.66 204.35 435.19 203.33Q434.73 202.32 433.82 201.79Q432.91 201.27 431.56 201.27L431.56 201.27L429.41 201.27ZM450.69 212L442.87 212L442.87 199.64L450.62 199.64L450.62 201.24L444.73 201.24L444.73 205.01L450.22 205.01L450.22 206.61L444.73 206.61L444.73 210.39L450.69 210.39L450.69 212ZM464.72 202.88L462.92 202.88Q462.83 202.03 462.13 201.55Q461.43 201.08 460.36 201.08L460.36 201.08Q459.60 201.08 459.05 201.32Q458.49 201.56 458.19 201.97Q457.88 202.38 457.88 202.91L457.88 202.91Q457.88 203.35 458.09 203.67Q458.30 203.99 458.64 204.20Q458.98 204.42 459.37 204.56Q459.77 204.70 460.13 204.79L460.13 204.79L461.33 205.11Q461.93 205.25 462.55 205.50Q463.17 205.75 463.70 206.15Q464.23 206.55 464.56 207.15Q464.89 207.75 464.89 208.58L464.89 208.58Q464.89 209.63 464.35 210.45Q463.81 211.26 462.79 211.73Q461.76 212.21 460.31 212.21L460.31 212.21Q458.93 212.21 457.91 211.76Q456.90 211.32 456.32 210.51Q455.75 209.70 455.69 208.58L455.69 208.58L457.56 208.58Q457.62 209.25 458.00 209.70Q458.38 210.14 458.98 210.35Q459.58 210.57 460.30 210.57L460.30 210.57Q461.09 210.57 461.71 210.32Q462.33 210.07 462.69 209.62Q463.04 209.17 463.04 208.56L463.04 208.56Q463.04 208.02 462.73 207.67Q462.42 207.32 461.89 207.09Q461.36 206.86 460.70 206.68L460.70 206.68L459.24 206.28Q457.75 205.88 456.89 205.09Q456.02 204.31 456.02 203.02L456.02 203.02Q456.02 201.95 456.60 201.15Q457.18 200.35 458.17 199.91Q459.16 199.47 460.41 199.47L460.41 199.47Q461.66 199.47 462.62 199.91Q463.59 200.35 464.14 201.12Q464.70 201.89 464.72 202.88L464.72 202.88ZM470.18 199.64L472.04 199.64L472.04 212L470.18 212L470.18 199.64ZM488.10 203.54L486.19 203.54Q486.01 202.99 485.72 202.56Q485.43 202.12 485.02 201.81Q484.62 201.50 484.10 201.33Q483.59 201.17 482.97 201.17L482.97 201.17Q481.93 201.17 481.09 201.71Q480.25 202.24 479.76 203.28Q479.28 204.31 479.28 205.81L479.28 205.81Q479.28 207.32 479.76 208.35Q480.25 209.39 481.10 209.93Q481.96 210.47 483.04 210.47L483.04 210.47Q484.05 210.47 484.80 210.06Q485.55 209.65 485.97 208.89L485.97 208.89Q486.36 208.18 486.38 207.21L486.38 207.21L483.33 207.21L483.33 205.67L488.19 205.67L488.19 207.08Q488.19 208.64 487.52 209.78Q486.86 210.93 485.70 211.55Q484.54 212.17 483.04 212.17L483.04 212.17Q481.36 212.17 480.10 211.40Q478.83 210.62 478.13 209.20Q477.42 207.78 477.42 205.82L477.42 205.82Q477.42 204.35 477.83 203.17Q478.24 201.99 478.99 201.17Q479.73 200.34 480.75 199.91Q481.76 199.47 482.96 199.47L482.96 199.47Q483.96 199.47 484.83 199.76Q485.69 200.06 486.37 200.60Q487.05 201.15 487.50 201.89Q487.94 202.64 488.10 203.54L488.10 203.54ZM501.74 199.64L503.59 199.64L503.59 212L501.88 212L495.59 202.93L495.48 202.93L495.48 212L493.61 212L493.61 199.64L495.34 199.64L501.63 208.72L501.74 208.72L501.74 199.64ZM517.19 212L509.37 212L509.37 199.64L517.12 199.64L517.12 201.24L511.23 201.24L511.23 205.01L516.71 205.01L516.71 206.61L511.23 206.61L511.23 210.39L517.19 210.39L517.19 212ZM524.54 212L522.68 212L522.68 199.64L527.09 199.64Q528.52 199.64 529.47 200.13Q530.42 200.63 530.89 201.50Q531.37 202.37 531.37 203.51L531.37 203.51Q531.37 204.65 530.89 205.51Q530.42 206.37 529.47 206.84L529.47 206.84Q529.29 206.94 529.10 207.00L529.10 207.00L531.84 212L529.71 212L527.20 207.32Q527.14 207.32 527.08 207.32L527.08 207.32L524.54 207.32L524.54 212ZM524.54 201.24L524.54 205.72L526.91 205.72Q527.82 205.72 528.39 205.46Q528.96 205.20 529.22 204.70Q529.49 204.21 529.49 203.51L529.49 203.51Q529.49 202.81 529.22 202.30Q528.95 201.79 528.38 201.51Q527.81 201.24 526.89 201.24L526.89 201.24L524.54 201.24ZM554.97 209.73L554.97 209.73Q554.24 209.73 553.64 209.37Q553.04 209.01 552.68 208.41Q552.32 207.80 552.32 207.07L552.32 207.07Q552.32 206.34 552.68 205.74Q553.04 205.14 553.64 204.78Q554.24 204.42 554.97 204.42L554.97 204.42Q555.71 204.42 556.31 204.78Q556.91 205.14 557.27 205.74Q557.63 206.34 557.63 207.07L557.63 207.07Q557.63 207.80 557.27 208.41Q556.91 209.01 556.31 209.37Q555.71 209.73 554.97 209.73ZM581.20 208.73L580.06 212L578.08 212L582.53 199.64L584.69 199.64L589.13 212L587.15 212L586.03 208.73L581.20 208.73ZM581.74 207.16L585.48 207.16L583.66 201.88L583.56 201.88L581.74 207.16ZM595.84 212L593.98 212L593.98 199.64L598.38 199.64Q599.82 199.64 600.77 200.13Q601.72 200.63 602.19 201.50Q602.66 202.37 602.66 203.51L602.66 203.51Q602.66 204.65 602.19 205.51Q601.71 206.37 600.77 206.84L600.77 206.84Q600.59 206.94 600.40 207.00L600.40 207.00L603.13 212L601.01 212L598.50 207.32Q598.44 207.32 598.38 207.32L598.38 207.32L595.84 207.32L595.84 212ZM595.84 201.24L595.84 205.72L598.21 205.72Q599.11 205.72 599.68 205.46Q600.25 205.20 600.52 204.70Q600.79 204.21 600.79 203.51L600.79 203.51Q600.79 202.81 600.52 202.30Q600.25 201.79 599.68 201.51Q599.11 201.24 598.18 201.24L598.18 201.24L595.84 201.24ZM611.24 201.24L607.39 201.24L607.39 199.64L616.96 199.64L616.96 201.24L613.10 201.24L613.10 212L611.24 212L611.24 201.24ZM622.12 199.64L623.99 199.64L623.99 212L622.12 212L622.12 199.64ZM638.31 202.88L636.51 202.88Q636.41 202.03 635.71 201.55Q635.01 201.08 633.95 201.08L633.95 201.08Q633.19 201.08 632.63 201.32Q632.08 201.56 631.77 201.97Q631.47 202.38 631.47 202.91L631.47 202.91Q631.47 203.35 631.68 203.67Q631.89 203.99 632.23 204.20Q632.57 204.42 632.96 204.56Q633.35 204.70 633.71 204.79L633.71 204.79L634.92 205.11Q635.51 205.25 636.14 205.50Q636.76 205.75 637.29 206.15Q637.82 206.55 638.15 207.15Q638.48 207.75 638.48 208.58L638.48 208.58Q638.48 209.63 637.94 210.45Q637.40 211.26 636.37 211.73Q635.35 212.21 633.90 212.21L633.90 212.21Q632.51 212.21 631.50 211.76Q630.48 211.32 629.91 210.51Q629.34 209.70 629.28 208.58L629.28 208.58L631.15 208.58Q631.20 209.25 631.59 209.70Q631.97 210.14 632.57 210.35Q633.17 210.57 633.89 210.57L633.89 210.57Q634.68 210.57 635.30 210.32Q635.92 210.07 636.27 209.62Q636.63 209.17 636.63 208.56L636.63 208.56Q636.63 208.02 636.32 207.67Q636.01 207.32 635.48 207.09Q634.95 206.86 634.29 206.68L634.29 206.68L632.83 206.28Q631.34 205.88 630.48 205.09Q629.61 204.31 629.61 203.02L629.61 203.02Q629.61 201.95 630.19 201.15Q630.77 200.35 631.76 199.91Q632.75 199.47 633.99 199.47L633.99 199.47Q635.25 199.47 636.21 199.91Q637.17 200.35 637.73 201.12Q638.28 201.89 638.31 202.88L638.31 202.88ZM647.01 201.24L643.16 201.24L643.16 199.64L652.72 199.64L652.72 201.24L648.87 201.24L648.87 212L647.01 212L647.01 201.24ZM676.16 209.73L676.16 209.73Q675.43 209.73 674.83 209.37Q674.23 209.01 673.87 208.41Q673.51 207.80 673.51 207.07L673.51 207.07Q673.51 206.34 673.87 205.74Q674.23 205.14 674.83 204.78Q675.43 204.42 676.16 204.42L676.16 204.42Q676.90 204.42 677.50 204.78Q678.10 205.14 678.46 205.74Q678.82 206.34 678.82 207.07L678.82 207.07Q678.82 207.80 678.46 208.41Q678.10 209.01 677.50 209.37Q676.90 209.73 676.16 209.73ZM700.21 212L700.21 199.64L702.47 199.64L706.41 209.25L706.55 209.25L710.49 199.64L712.75 199.64L712.75 212L710.98 212L710.98 203.05L710.86 203.05L707.22 211.98L705.74 211.98L702.10 203.05L701.98 203.05L701.98 212L700.21 212ZM720.71 208.73L719.57 212L717.59 212L722.04 199.64L724.20 199.64L728.65 212L726.67 212L725.54 208.73L720.71 208.73ZM721.25 207.16L724.99 207.16L723.17 201.88L723.07 201.88L721.25 207.16ZM735.35 212L733.49 212L733.49 199.64L735.35 199.64L735.35 205.54L735.50 205.54L740.69 199.64L743.04 199.64L738.05 205.20L743.05 212L740.81 212L736.81 206.48L735.35 208.15L735.35 212ZM755.67 212L747.84 212L747.84 199.64L755.59 199.64L755.59 201.24L749.71 201.24L749.71 205.01L755.19 205.01L755.19 206.61L749.71 206.61L749.71 210.39L755.67 210.39L755.67 212ZM763.02 212L761.15 212L761.15 199.64L765.56 199.64Q767.00 199.64 767.95 200.13Q768.90 200.63 769.37 201.50Q769.84 202.37 769.84 203.51L769.84 203.51Q769.84 204.65 769.37 205.51Q768.89 206.37 767.94 206.84L767.94 206.84Q767.77 206.94 767.58 207.00L767.58 207.00L770.31 212L768.19 212L765.67 207.32Q765.61 207.32 765.55 207.32L765.55 207.32L763.02 207.32L763.02 212ZM763.02 201.24L763.02 205.72L765.38 205.72Q766.29 205.72 766.86 205.46Q767.43 205.20 767.70 204.70Q767.96 204.21 767.96 203.51L767.96 203.51Q767.96 202.81 767.69 202.30Q767.42 201.79 766.85 201.51Q766.28 201.24 765.36 201.24L765.36 201.24L763.02 201.24Z" fill="#ffb3d6" opacity=".9"/>
+</svg>
