@@ -10,25 +10,28 @@
 
 ---
 
-### 🌸 About me
+### About me
 
 I make things people remember. Curious, playful, always experimenting. Let’s create something fun.
 
-- 🎨 Designing websites, brands and visuals that feel alive
-- 🧪 Always playing with new tools, styles and ideas
-- 🤝 Open to fun collaborations, come say hi!
+- Designing websites, brands and visuals that feel alive
+- Always playing with new tools, styles and ideas
+- Open to fun collaborations, come say hi!
 
-### 🛠️ Tools I play with
+### Tools I play with
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=figma,ps,ai,ae,html,css,js,wordpress&perline=8" alt="Figma, Photoshop, Illustrator, After Effects, HTML, CSS, JavaScript, WordPress" />
 </p>
 
-### 🖼️ See my work
+### See my work
 
 <a href="https://www.behance.net/ranabahaa_">
   <img src="assets/btn-portfolio-blue.svg" alt="Explore my portfolio on Behance" />
 </a>
+
+<br />
+<br />
 
 <p align="center">
   <img src="assets/what-i-do-flowers.svg" width="100%" alt="What I do: UI/UX design, brand identity, web development, AI visuals &amp; motion, digital marketing" />
