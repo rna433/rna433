@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Hi, I'm Rana — Designer • Artist • Maker" />
+  <img src="assets/header-black.svg" width="100%" alt="Hi, I'm Rana — Designer • Artist • Maker" />
 </p>
 
 <p align="center">
