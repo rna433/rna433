@@ -1,11 +1,15 @@
 <!-- Header -->
 <p align="center">
-  <img src="assets/header-friends.svg" width="100%" alt="Hi, I'm Rana — Designer • Artist • Maker" />
+  <img src="assets/header-vines.svg" width="100%" alt="Hi, I'm Rana — Designer • Artist • Maker" />
 </p>
 
 <p align="center">
   <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance.svg" alt="Behance" /></a>
   <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/what-i-do.svg" width="100%" alt="What I do: Design, Vibe Code, Enhance, Marketing, and more" />
 </p>
 
 ---
