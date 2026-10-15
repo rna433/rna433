@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/what-i-do.svg" width="100%" alt="What I do: Design, Vibe Code, Enhance, Marketing, and more" />
+  <img src="assets/what-i-do.svg" width="100%" alt="What I do: UI/UX design, brand identity, web development, AI visuals &amp; motion, digital marketing" />
 </p>
 
 ---
