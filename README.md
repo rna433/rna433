@@ -21,7 +21,7 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 ### Tools I play with
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=figma,ps,ai,ae,html,css,js,wordpress&perline=8" alt="Figma, Photoshop, Illustrator, After Effects, HTML, CSS, JavaScript, WordPress" />
+  <img src="assets/tools.svg" alt="Figma, Photoshop, Illustrator, After Effects, Blender, HTML, CSS, JavaScript, WordPress, Higgsfield, Seedance" />
 </p>
 
 ### See my work
