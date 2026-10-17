@@ -1,6 +1,6 @@
 <!-- Header: auto-scrolling Behance projects -->
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/projects-carousel.svg" width="100%" alt="My Behance projects" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/projects-reel.svg" width="100%" alt="My Behance projects" /></a>
 </p>
 
 <p align="center">
