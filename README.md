@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance-review.svg" alt="Review my portfolio on Behance" /></a>
-  <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin-2.svg" alt="LinkedIn" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance-clean.svg" alt="Review my portfolio on Behance" /></a>
+  <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin-clean.svg" alt="LinkedIn" /></a>
 </p>
 
 ---
@@ -27,5 +27,5 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 ### What I do
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/what-i-do-reel-2.svg" width="100%" alt="What I do: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/what-i-do-reel-3.svg" width="100%" alt="What I do: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
 </p>
