@@ -24,12 +24,6 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
   <img src="assets/tools.svg" alt="Figma, Photoshop, Illustrator, After Effects, Blender, HTML, CSS, JavaScript, WordPress, Higgsfield, Seedance" />
 </p>
 
-### See my work
-
-<a href="https://www.behance.net/ranabahaa_">
-  <img src="assets/btn-portfolio-2.svg" alt="Explore my portfolio on Behance" />
-</a>
-
 ### What I do
 
 <p align="center">
