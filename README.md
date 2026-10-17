@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance.svg" alt="Behance" /></a>
-  <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance-pro.svg" alt="Behance" /></a>
+  <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin-pro.svg" alt="LinkedIn" /></a>
 </p>
 
 ---
@@ -27,7 +27,7 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 ### See my work
 
 <a href="https://www.behance.net/ranabahaa_">
-  <img src="assets/btn-portfolio-blue.svg" alt="Explore my portfolio on Behance" />
+  <img src="assets/btn-portfolio-pro.svg" alt="Explore my portfolio on Behance" />
 </a>
 
 <p><a href="https://www.behance.net/gallery/256599627/Tuft-Meet-the-AI-Team-That-Never-Clocks-Out">Tuft: Meet the AI Team That Never Clocks Out</a> · <a href="https://www.behance.net/gallery/246027713/ORO-Pizza-Branding">ORO Pizza Branding</a> · <a href="https://www.behance.net/gallery/239650463/Travel-Mobile-App-Design-Development">Travel Mobile App: Design &amp; Development</a> · <a href="https://www.behance.net/gallery/242038115/Real-Estate-Virtual-Assistant-Brand">Real Estate Virtual Assistant Brand</a> · <a href="https://www.behance.net/gallery/237045551/Mobile-App-Brand-Development-For-Moving-Management">Mobile App Brand &amp; Development For Moving Management</a> · <a href="https://www.behance.net/gallery/239907821/Padel-Academy-Branding">Padel Academy Branding</a> · <a href="https://www.behance.net/gallery/190896977/Chilled-Roast">Chilled Roast</a> · <a href="https://www.behance.net/gallery/182602789/CODA">CODA</a> · <a href="https://www.behance.net/gallery/184804975/Logofolio-2023">Logofolio 2023</a> · <a href="https://www.behance.net/gallery/171230989/Beak-Bites">Beak Bites</a> · <a href="https://www.behance.net/gallery/143161993/Moskins-coffee">Moskins coffee</a> · <a href="https://www.behance.net/gallery/135408777/Aljanoub-brand">Aljanoub brand</a></p>
