@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance-clean.svg" alt="Review my portfolio on Behance" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance-view.svg" alt="View my portfolio on Behance" /></a>
   <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin-clean.svg" alt="LinkedIn" /></a>
 </p>
 
