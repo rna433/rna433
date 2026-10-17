@@ -27,5 +27,5 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 ### What I do
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/what-i-do-reel-3.svg" width="100%" alt="What I do: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/what-i-do-reel-4.svg" width="100%" alt="What I do: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
 </p>
