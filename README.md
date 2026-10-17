@@ -14,9 +14,11 @@
 
 I make things people remember. Curious, playful, always experimenting. Let’s create something fun.
 
-- Designing websites, brands and visuals that feel alive
-- Always playing with new tools, styles and ideas
-- Open to fun collaborations, come say hi!
+- **12 projects published on Behance**, from brand identities to complete mobile apps
+- **Brands across food, coffee, sport and tech**, including ORO Pizza, Moskins, Chilled Roast, Padel Academy and Beak Bites
+- **Design to code**: took the Arivo travel app from branding to UI to development
+- **3D and AI visuals**: created Tuft’s cast of AI teammates and Chilled Roast’s 3D product world
+- **Open to freelance and collaborations**, let’s make something people remember
 
 ### What I do
 
