@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance-pro.svg" alt="Behance" /></a>
-  <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin-pro.svg" alt="LinkedIn" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/btn-behance-review.svg" alt="Review my portfolio on Behance" /></a>
+  <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/btn-linkedin-2.svg" alt="LinkedIn" /></a>
 </p>
 
 ---
@@ -27,13 +27,13 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 ### See my work
 
 <a href="https://www.behance.net/ranabahaa_">
-  <img src="assets/btn-portfolio-pro.svg" alt="Explore my portfolio on Behance" />
+  <img src="assets/btn-portfolio-2.svg" alt="Explore my portfolio on Behance" />
 </a>
 
 ### Selected work
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/selected-work-pip.svg" width="100%" alt="Selected work: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/selected-work-arivo.svg" width="100%" alt="Selected work: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
 </p>
 
 
