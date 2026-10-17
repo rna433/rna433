@@ -30,6 +30,12 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
   <img src="assets/btn-portfolio-pro.svg" alt="Explore my portfolio on Behance" />
 </a>
 
+### Selected work
+
+<p align="center">
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/selected-work.svg" width="100%" alt="Selected work: Tuft, ORO Pizza Branding, Travel Mobile App, Padel Academy Branding, CODA" /></a>
+</p>
+
 
 <br />
 <br />
