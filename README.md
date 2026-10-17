@@ -35,5 +35,5 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 <br />
 
 <p align="center">
-  <img src="assets/what-i-do-flowers.svg" width="100%" alt="What I do: UI/UX design, brand identity, web development, AI visuals &amp; motion, digital marketing" />
+  <img src="assets/what-i-do-bubbles.svg" width="100%" alt="What I do: UI/UX design, brand identity, web development, AI visuals &amp; motion, marketing, and many more" />
 </p>
