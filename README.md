@@ -35,5 +35,5 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 <br />
 
 <p align="center">
-  <img src="assets/what-i-do-white.svg" width="100%" alt="What I do: UI/UX design, brand identity, web development, AI visuals &amp; motion, marketing, and many more" />
+  <a href="https://www.linkedin.com/in/rana-bahaa-b69613202/"><img src="assets/what-i-do-clear.svg" width="100%" alt="What I do: UI/UX design, brand identity, web development, AI visuals &amp; motion, marketing, and many more" /></a>
 </p>
