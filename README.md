@@ -33,7 +33,7 @@ I make things people remember. Curious, playful, always experimenting. Let’s c
 ### Selected work
 
 <p align="center">
-  <a href="https://www.behance.net/ranabahaa_"><img src="assets/selected-work-moskins.svg" width="100%" alt="Selected work: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
+  <a href="https://www.behance.net/ranabahaa_"><img src="assets/selected-work-pip.svg" width="100%" alt="Selected work: character design, branding, product design, logo design, packaging design, 3D &amp; motion" /></a>
 </p>
 
 
